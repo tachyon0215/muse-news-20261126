@@ -4,6 +4,8 @@
 // file. The program delivers those exact bytes to the grader's output
 // location with a plain copy: no drawing, no clock, no network, so the
 // result is identical on every run.
+// Behaviour in one line: copy the committed entry.png to the output
+// directory, then confirm the copied file is byte-complete.
 
 import fs from "node:fs";
 import path from "node:path";
